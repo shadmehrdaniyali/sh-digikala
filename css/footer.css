@@ -273,9 +273,10 @@
   height: 160px;
   background-color: #f0f0f1;
   display: flex;
+  justify-content: center;
   flex-flow: row wrap;
   .digikala-item {
-    width: 209px;
+    width: 200px;
     height: 80px;
     display: flex;
     img {
