@@ -1,0 +1,40 @@
+.storybrand {
+  width: 80%;
+  height: 221px;
+  display: flex;
+  background-color: #fff;
+  margin: 50px auto;
+  text-align: center;
+  justify-content: center;
+}
+.storybrand-text {
+  display: flex;
+  font-family: var(--font-family);
+  font-size: 15px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    object-fit: contain;
+    width: 110px;
+    height: 110px;
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

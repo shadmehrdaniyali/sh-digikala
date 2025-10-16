@@ -1,0 +1,34 @@
+.tak-slide-2 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 698px;
+    height: 265px;
+    column-gap: 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+}
+.tak-slide-3 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 698px;
+    height: 265px;
+    column-gap: 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+}

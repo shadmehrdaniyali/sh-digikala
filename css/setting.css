@@ -1,0 +1,51 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.wrapper {
+  width: 100%;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../font/fa/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.eot),
+    url(../font/fa/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.ttf),
+    url(../font/fa/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.woff),
+    url(../font/fa/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.woff2);
+}
+@font-face {
+  font-family: VaziriNumber;
+  src: url(../font/fa/Vazir-Bold-FD-WOL.ttf);
+}
+:root{
+  --font-family: Vazir; 
+  --number:VaziriNumber;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after,.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  font-size: 14px;
+  font-weight: bold;
+  color: #2b2b2b;
+
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next,.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+.swiper-button-disabled{
+  opacity: 0 !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  width:  10px;
+  height: 10px;
+  /* scale: 70%; */
+  transition: 300ms;
+}
+.swiper-pagination-bullet-active{
+  width: 15px !important;
+  height: 5px !important;
+  background-color: whitesmoke !important;
+  border-radius: 5px !important;
+
+}

@@ -1,0 +1,120 @@
+.shegeftangiz{
+   width: 100%;
+   height: 150px;
+   margin: 20px 0;
+   display: flex;
+   justify-content: center;
+
+     .shegeftangiz-center{
+        width:75%;
+        height: 105px;  
+        display: flex; 
+        background-color: rgb(236, 238, 237);
+        margin: 18px 0;
+        padding: 3px;
+        border-radius: 16px; 
+     }
+     .takhfif{
+        width: 97px;
+        height: 25px;
+        display: inline-flex;
+        background-color: rgb(2, 154, 73);
+        border-radius: 16px;
+        margin: 40px 0;
+        a{
+        display: flex;
+        font-size: 12px;
+        font-family: var(--font-family);
+        line-height: 25px;
+        /* margin-bottom: 10px; */
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 30px;
+        margin-right: 10px;
+        color: white;
+        }
+     }
+     
+      .shegeftangiz-logo-img-1{
+          display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding-left: 5px;
+                box-sizing: border-box;
+        .shegeftangiz-logo{
+        width: 66px;
+        height: 62px; 
+         }
+     .shegeftangiz-image{
+          padding-right: 15px;
+        }
+      }
+    .shegeftangiz-item{
+      width: 35%;
+      height: 83px;
+      display: flex;
+      margin: 13px 0;
+      margin-right: 284px;
+      
+      align-items: center;
+      justify-content: center;
+                
+      span{
+         width: 75px;
+         height: 75px;
+         margin: 40px;
+         
+         background-color: red;;
+         border-radius: 50%;
+         border: 1px solid red; 
+        font-size: 12px;
+        font-family: var(--font-family);
+        color: white;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+
+             }
+       .circle-a{
+         width: 65px;
+         height: 65px;
+         background-color: white;
+         margin: 50px 0;
+         border-radius: 50%;
+         margin-right: 5px;
+         
+         img{
+            width: 58px;
+            height: 58px;
+            margin: 3px 0;
+            padding-right: 3px;
+         }
+         
+         
+       }
+       .more{
+          width: 149px;
+          display: flex;
+         height: 29px;
+         padding: 10px 45px;
+         padding-left: 0px;
+         border-radius: 100px;
+         border: 1px solid white;
+         align-items: center;
+         justify-content: center;
+         margin-right: 5px;
+         background-color: white;
+       
+        a{
+        width: 80px; 
+        display:flex;
+        font-size: 12px;
+        font-family: var(--font-family);
+        align-items: center;
+        justify-content: space-between;
+        color: green;
+        }
+    }
+    
+   } 
+ }

@@ -1,0 +1,50 @@
+.c-story{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    .sh{
+        width: 80%;
+        height: 100%;
+    align-items: center;
+    justify-content: center;
+    }
+
+    
+   
+    .c2Swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.c2Swiper .swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+     img{
+             width: 110px;
+            height: 110px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            outline-offset: 3px;
+    
+}
+
+ 
+
+.c2Swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+}
+}
